@@ -16,3 +16,11 @@ def add_pureunc(item):
 
 new_list = add_pureunc(5)
 print(new_list)
+
+# another form of pure function in python
+def addtionalList(lst, item):
+    lst.append(item)
+    return lst
+
+result = addtionalList(my_list, 6)
+print(result)
